@@ -3,6 +3,7 @@ document.querySelector('#pdf-upload-form').addEventListener('submit', function(e
     event.preventDefault(); // Previne o reload da página
 
     const formData = new FormData(this);
+    console.log(formData);
 
     // Envia os dados do formulário via AJAX usando Fetch API
     fetch('upload.php', {

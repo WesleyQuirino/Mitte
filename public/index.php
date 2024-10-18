@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Upload PDF</title>
-        <script src="js/upload.js" defer></script> <!-- Referência ao script de upload -->
+        <script src="js/upload.js" defer></script>
     </head>
     <body>
         <h2>Envie o arquivo PDF</h2>

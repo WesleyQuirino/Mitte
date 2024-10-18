@@ -3,15 +3,19 @@ import pandas as pd
 import json
 import sys
 
-# Função principal para processar o PDF
 def process_pdf(pdf_path):
     try:
         # Extraindo todas as tabelas do PDF
-        tables = tabula.read_pdf(pdf_path, pages="all", multiple_tables=True)
-
+        tables = tabula.read_pdf(pdf_path, 
+            pages="all", 
+            multiple_tables=True, 
+            relative_area=True, 
+            relative_columns=True, 
+            area=[12,0,90,100], 
+            columns=[10, 30.5, 37, 45, 53, 60, 70, 80, 100]
+        )
         # Definir o cabeçalho personalizado
-        custom_header = ["ID Nome", "Bloco", "Apto", "Dispositivo", "Saída", 
-                         "Recurso", "Status do Recurso", "Data de registro"]
+        custom_header = ["ID", "Nome", "Bloco", "Apto", "Dispositivo", "Saída", "Recurso", "Status do Recurso", "Data de registro"]
 
         # Lista para armazenar todas as tabelas processadas
         processed_tables = []
@@ -40,17 +44,15 @@ def process_pdf(pdf_path):
         processed_data = json_data
 
         # Exportar os dados processados para um arquivo JSON
-        with open('json/output.json', 'w', encoding='utf-8') as json_file:
+        with open('./json/output.json', 'w', encoding='utf-8') as json_file:
             json.dump(processed_data, json_file, indent=4, ensure_ascii=False)
 
         # Retornar o JSON processado como string
         return json.dumps(processed_data, indent=4, ensure_ascii=False)
-
     except Exception as e:
         # Redirecionar a mensagem de erro para o stderr
         sys.stderr.write(f"Erro ao processar o PDF: {str(e)}\n")
         return None
-
 # Receber o caminho do PDF como argumento
 if __name__ == "__main__":
     pdf_path = sys.argv[1]
