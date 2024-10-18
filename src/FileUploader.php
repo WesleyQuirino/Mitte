@@ -12,7 +12,7 @@ class FileUploader{
     }
 
     public function uploadFile($file){
-        $uploadedFile = $this->uploadDir . basename($file['name']);
+        $uploadedFile = "C:/Users/Wesley/Desktop/Mitte/public/uploads/" . basename($file['name']);
         if (move_uploaded_file($file['tmp_name'], $uploadedFile)) {
             return $uploadedFile;
         }

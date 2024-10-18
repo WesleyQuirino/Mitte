@@ -16,10 +16,10 @@ class PdfProcessor {
         // Escolhe o script Python com base no modelo
         switch ($this->model) {
             case 'intelbras-v1':
-                $pythonScript = 'python/intelbras-v1.py';
+                $pythonScript = 'C:\Users\Wesley\Desktop\Mitte\src\python\intelbras-v1.py';
                 break;
             case 'outro_modelo':
-                $pythonScript = 'python/outro_modelo.py';
+                $pythonScript = 'outro_modelo.py';
                 break;
             default:
                 return null;
@@ -30,7 +30,7 @@ class PdfProcessor {
         shell_exec($command . " 2>&1"); // Executa o script Python
 
         // Verifica se o arquivo JSON foi gerado
-        $jsonFile = 'output.json';
+        $jsonFile = 'C:\Users\Wesley\Desktop\Mitte\public\json\output.json';
         if (!file_exists($jsonFile)) {
             return ['status' => 'error', 'message' => 'Erro: arquivo JSON não foi gerado.'];
         }

@@ -40,7 +40,7 @@ def process_pdf(pdf_path):
         processed_data = json_data
 
         # Exportar os dados processados para um arquivo JSON
-        with open('output.json', 'w', encoding='utf-8') as json_file:
+        with open('json/output.json', 'w', encoding='utf-8') as json_file:
             json.dump(processed_data, json_file, indent=4, ensure_ascii=False)
 
         # Retornar o JSON processado como string
