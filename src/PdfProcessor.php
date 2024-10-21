@@ -13,58 +13,28 @@ class PdfProcessor {
     public function process() {
         $pythonScript = '';
 
+        // Extrair o nome do arquivo PDF sem a extensão
+        $fileName = pathinfo($this->filePath, PATHINFO_FILENAME);
+
         // Escolhe o script Python com base no modelo
         switch ($this->model) {
             case 'intelbras-v1':
                 $pythonScript = 'C:\Users\Wesley\Desktop\Mitte\src\python\intelbras-v1.py';
+                // Executa o script Python correspondente
+                $command = escapeshellcmd("python $pythonScript " . escapeshellarg($this->filePath));
+                shell_exec($command . " 2>&1"); // Executa o script Python
+
+                // Verifica se o arquivo JSON foi gerado
+                $jsonFile = "C:\\Users\\Wesley\\Desktop\\Mitte\\public\\json\\$fileName.json";
+                if (!file_exists($jsonFile)) {
+                    return ['status' => 'error', 'message' => 'Erro: arquivo JSON não foi gerado.'];
+                }
                 break;
             case 'outro_modelo':
                 $pythonScript = 'outro_modelo.py';
                 break;
             default:
                 return null;
-        }
-
-        // Executa o script Python correspondente
-        $command = escapeshellcmd("python $pythonScript " . escapeshellarg($this->filePath));
-        shell_exec($command . " 2>&1"); // Executa o script Python
-
-        // Verifica se o arquivo JSON foi gerado
-        $jsonFile = 'C:\Users\Wesley\Desktop\Mitte\public\json\output.json';
-        if (!file_exists($jsonFile)) {
-            return ['status' => 'error', 'message' => 'Erro: arquivo JSON não foi gerado.'];
-        }
-
-        if (file_exists($jsonFile)) {
-            // Ler e decodificar o arquivo JSON
-            $json_data = json_decode(file_get_contents($jsonFile), true);
-            $processed_data = array();
-            $previous_item = array();
-
-            for ($i = 0; $i < count($json_data); $i++) {
-                if (empty($json_data[$i]["ID"])) {
-                    foreach ($json_data[$i] as $json_data_key => $json_data_value) {
-                        if (!empty($json_data_value)) {
-                            if (!empty($previous_item[$json_data_key])) {
-                                if (strpos($previous_item[$json_data_key], $json_data_value) === false) {
-                                    $previous_item[$json_data_key] .= " " . $json_data_value;
-                                }
-                            } else {
-                                $previous_item[$json_data_key] = $json_data_value;
-                            }
-                        }
-                    }
-                    $processed_data[count($processed_data) - 1] = $previous_item;
-                } else {
-                    $previous_item = $json_data[$i];
-                    $processed_data[] = $previous_item;
-                }
-            }
-            $jsonString = json_encode($processed_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
-
-            $file = fopen($jsonFile, 'w');
-            fwrite($file, $jsonString);
-            fclose($file);
         }
 
         // Verifica se o arquivo JSON tem conteúdo

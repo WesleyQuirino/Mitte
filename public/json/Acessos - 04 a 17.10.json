@@ -1,5 +1,16 @@
 [
     {
+        "ID": "12063",
+        "Nome": "Gustavo",
+        "Bloco": null,
+        "Apto": "1001",
+        "Dispositivo": "Ped Casas",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "17/10/2024 13:44:41"
+    },
+    {
         "ID": "12061",
         "Nome": "Sindico",
         "Bloco": null,
@@ -247,10 +258,32 @@
         "Bloco": null,
         "Apto": "1001",
         "Dispositivo": "Ped Casas",
+        "Saída": "Saida01",
+        "Recurso": "Chaveiro",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "17/10/2024 09:56:04"
+    },
+    {
+        "ID": "12034",
+        "Nome": "Engenharia",
+        "Bloco": null,
+        "Apto": "1001",
+        "Dispositivo": "Ped Casas",
+        "Saída": "Saida02",
+        "Recurso": "(TAG)",
+        "Status do Recurso": null,
+        "Data de registro": "17/10/2024 09:56:04"
+    },
+    {
+        "ID": "12033",
+        "Nome": "Ap 105 - Adriana Batistucci",
+        "Bloco": null,
+        "Apto": "105",
+        "Dispositivo": "Ped Apt",
         "Saída": "Saida01 Saida02",
         "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
-        "Data de registro": "17/10/2024 09:56:04"
+        "Data de registro": "17/10/2024 09:46:27"
     },
     {
         "ID": "12032",
@@ -506,6 +539,17 @@
         "Data de registro": "17/10/2024 08:35:09"
     },
     {
+        "ID": "12009",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "17/10/2024 08:35:00"
+    },
+    {
         "ID": "12008",
         "Nome": "Ap 108 - Benedito Kadimiel",
         "Bloco": null,
@@ -757,6 +801,17 @@
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
         "Data de registro": "16/10/2024 20:35:12"
+    },
+    {
+        "ID": "11984",
+        "Nome": "Ap 101 - Adalgiza Ortega",
+        "Bloco": null,
+        "Apto": "101",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "16/10/2024 20:35:00"
     },
     {
         "ID": "11983",
@@ -1023,6 +1078,28 @@
         "Data de registro": "16/10/2024 17:56:18"
     },
     {
+        "ID": "11960",
+        "Nome": "Cs 01",
+        "Bloco": null,
+        "Apto": "01",
+        "Dispositivo": "Ped Casas",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "16/10/2024 17:56:18"
+    },
+    {
+        "ID": "11958",
+        "Nome": "Ap 105 - Adriana Batistucci",
+        "Bloco": null,
+        "Apto": "105",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "16/10/2024 17:52:59"
+    },
+    {
         "ID": "11957",
         "Nome": "Cs 01",
         "Bloco": null,
@@ -1276,6 +1353,17 @@
         "Data de registro": "16/10/2024 12:50:03"
     },
     {
+        "ID": "11934",
+        "Nome": "Cs 01",
+        "Bloco": null,
+        "Apto": "01",
+        "Dispositivo": "Ped Casas",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "16/10/2024 12:45:58"
+    },
+    {
         "ID": "11933",
         "Nome": "Ap 105 - Adriana Batistucci",
         "Bloco": null,
@@ -1527,6 +1615,17 @@
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
         "Data de registro": "16/10/2024 10:46:18"
+    },
+    {
+        "ID": "11909",
+        "Nome": "Ap 103 - Auris Nohely",
+        "Bloco": null,
+        "Apto": "103",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "16/10/2024 10:43:59"
     },
     {
         "ID": "11908",
@@ -1790,6 +1889,17 @@
         "Saída": "Saida01",
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
+        "Data de registro": "16/10/2024 09:27:46"
+    },
+    {
+        "ID": "11885",
+        "Nome": "Gustavo",
+        "Bloco": null,
+        "Apto": "1001",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
         "Data de registro": "16/10/2024 09:27:46"
     },
     {
@@ -2057,6 +2167,17 @@
         "Data de registro": "16/10/2024 08:24:56"
     },
     {
+        "ID": "11860",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "16/10/2024 08:24:56"
+    },
+    {
         "ID": "11859",
         "Nome": "Ap 104 - Bruno Eduardo",
         "Bloco": null,
@@ -2321,6 +2442,28 @@
         "Data de registro": "15/10/2024 20:49:37"
     },
     {
+        "ID": "11836",
+        "Nome": "Ap 107",
+        "Bloco": null,
+        "Apto": "107",
+        "Dispositivo": "Ped Apt",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "15/10/2024 20:49:37"
+    },
+    {
+        "ID": "11835",
+        "Nome": "Ap 107",
+        "Bloco": null,
+        "Apto": "107",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "15/10/2024 20:48:23"
+    },
+    {
         "ID": "11834",
         "Nome": "Cs 01",
         "Bloco": null,
@@ -2567,11 +2710,33 @@
         "Nome": "Ap 108 - Benedito Kadimiel",
         "Bloco": null,
         "Apto": "108",
+        "Dispositivo": "Portao",
+        "Saída": "Saida01",
+        "Recurso": "Controle",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "15/10/2024 17:24:19"
+    },
+    {
+        "ID": "11810",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Veiculos",
+        "Saída": null,
+        "Recurso": "(RF)",
+        "Status do Recurso": null,
+        "Data de registro": "15/10/2024 17:24:19"
+    },
+    {
+        "ID": "11809",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
         "Dispositivo": "Portao Veiculos",
         "Saída": "Saida01",
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
-        "Data de registro": "15/10/2024 17:24:19"
+        "Data de registro": "15/10/2024 17:24:05"
     },
     {
         "ID": "11808",
@@ -2827,6 +2992,17 @@
         "Data de registro": "15/10/2024 13:40:52"
     },
     {
+        "ID": "11785",
+        "Nome": "Engenharia",
+        "Bloco": null,
+        "Apto": "1001",
+        "Dispositivo": "Predio P Obra",
+        "Saída": "Obra",
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "15/10/2024 13:40:52"
+    },
+    {
         "ID": "11784",
         "Nome": "Engenharia",
         "Bloco": null,
@@ -3078,6 +3254,17 @@
         "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
         "Data de registro": "15/10/2024 10:36:41"
+    },
+    {
+        "ID": "11761",
+        "Nome": "Ap 105 - Adriana Batistucci",
+        "Bloco": null,
+        "Apto": "105",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "15/10/2024 10:34:29"
     },
     {
         "ID": "11760",
@@ -3341,6 +3528,17 @@
         "Saída": null,
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Bloqueado pelo",
+        "Data de registro": "15/10/2024 08:36:46"
+    },
+    {
+        "ID": "11737",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": "dispositivo",
         "Data de registro": "15/10/2024 08:36:46"
     },
     {
@@ -3608,6 +3806,17 @@
         "Data de registro": "14/10/2024 21:05:11"
     },
     {
+        "ID": "11713",
+        "Nome": "Ap 103 - Auris Nohely",
+        "Bloco": null,
+        "Apto": "103",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "14/10/2024 21:05:11"
+    },
+    {
         "ID": "11712",
         "Nome": "Ap 103 - Auris Nohely",
         "Bloco": null,
@@ -3859,6 +4068,17 @@
         "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
         "Data de registro": "14/10/2024 17:47:45"
+    },
+    {
+        "ID": "11687",
+        "Nome": "Cs 02",
+        "Bloco": null,
+        "Apto": "02",
+        "Dispositivo": "Ped Casas",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "14/10/2024 17:44:36"
     },
     {
         "ID": "11686",
@@ -4122,6 +4342,17 @@
         "Saída": "Saida01",
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
+        "Data de registro": "14/10/2024 16:05:03"
+    },
+    {
+        "ID": "11663",
+        "Nome": "Ap 101 - Adalgiza Ortega",
+        "Bloco": null,
+        "Apto": "101",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
         "Data de registro": "14/10/2024 16:05:03"
     },
     {
@@ -4389,6 +4620,28 @@
         "Data de registro": "14/10/2024 14:06:01"
     },
     {
+        "ID": "11638",
+        "Nome": "Engenharia",
+        "Bloco": null,
+        "Apto": "1001",
+        "Dispositivo": "Ped Casas",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "14/10/2024 14:06:01"
+    },
+    {
+        "ID": "11637",
+        "Nome": "Engenharia",
+        "Bloco": null,
+        "Apto": "1001",
+        "Dispositivo": "Ped Casas",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "14/10/2024 14:04:17"
+    },
+    {
         "ID": "11636",
         "Nome": "Engenharia",
         "Bloco": null,
@@ -4635,11 +4888,33 @@
         "Nome": "Cs 01",
         "Bloco": null,
         "Apto": "01",
+        "Dispositivo": "Portao",
+        "Saída": "Saida01",
+        "Recurso": "Controle",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "14/10/2024 12:51:06"
+    },
+    {
+        "ID": "11614",
+        "Nome": "Cs 01",
+        "Bloco": null,
+        "Apto": "01",
+        "Dispositivo": "Veiculos",
+        "Saída": null,
+        "Recurso": "(RF)",
+        "Status do Recurso": null,
+        "Data de registro": "14/10/2024 12:51:06"
+    },
+    {
+        "ID": "11613",
+        "Nome": "Cs 01",
+        "Bloco": null,
+        "Apto": "01",
         "Dispositivo": "Portao Veiculos",
         "Saída": "Saida01",
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
-        "Data de registro": "14/10/2024 12:51:06"
+        "Data de registro": "14/10/2024 12:50:47"
     },
     {
         "ID": "11612",
@@ -4893,6 +5168,17 @@
         "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
         "Data de registro": "14/10/2024 11:25:31"
+    },
+    {
+        "ID": "11588",
+        "Nome": "Mitte",
+        "Bloco": "100",
+        "Apto": "100",
+        "Dispositivo": "Ped Casas",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "14/10/2024 11:13:01"
     },
     {
         "ID": "11587",
@@ -5152,11 +5438,33 @@
         "Nome": "Mitte",
         "Bloco": "100",
         "Apto": "100",
-        "Dispositivo": "Ped Casas Veiculos",
+        "Dispositivo": "Ped Casas",
         "Saída": "Saida01 Saida02",
-        "Recurso": "Chaveiro (TAG) (RF)",
+        "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
         "Data de registro": "14/10/2024 08:31:44"
+    },
+    {
+        "ID": "11560",
+        "Nome": "Mitte",
+        "Bloco": "100",
+        "Apto": "100",
+        "Dispositivo": "Ped Casas",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "14/10/2024 08:31:44"
+    },
+    {
+        "ID": "11559",
+        "Nome": "Ap 106 - Elvis de Souza",
+        "Bloco": null,
+        "Apto": "106",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "14/10/2024 08:23:11"
     },
     {
         "ID": "11558",
@@ -5406,10 +5714,32 @@
         "Bloco": null,
         "Apto": "108",
         "Dispositivo": "Portao",
-        "Saída": "Saida01 Saida02",
-        "Recurso": "Controle (TAG)",
+        "Saída": "Saida01",
+        "Recurso": "Controle",
         "Status do Recurso": "Liberado",
         "Data de registro": "13/10/2024 20:54:00"
+    },
+    {
+        "ID": "11536",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Veiculos",
+        "Saída": null,
+        "Recurso": "(RF)",
+        "Status do Recurso": null,
+        "Data de registro": "13/10/2024 20:54:00"
+    },
+    {
+        "ID": "11533",
+        "Nome": "Ap 103 - Auris Nohely",
+        "Bloco": null,
+        "Apto": "103",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "13/10/2024 20:05:29"
     },
     {
         "ID": "11532",
@@ -5658,11 +5988,33 @@
         "Nome": "Ap 105 - Adriana Batistucci",
         "Bloco": null,
         "Apto": "105",
-        "Dispositivo": "Ped Apt Veiculos",
+        "Dispositivo": "Ped Apt",
         "Saída": "Saida01",
-        "Recurso": "Chaveiro (RF)",
+        "Recurso": "Chaveiro",
         "Status do Recurso": "Liberado",
         "Data de registro": "13/10/2024 13:04:25"
+    },
+    {
+        "ID": "11508",
+        "Nome": "Ap 105 - Adriana Batistucci",
+        "Bloco": null,
+        "Apto": "105",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida02",
+        "Recurso": "(TAG)",
+        "Status do Recurso": null,
+        "Data de registro": "13/10/2024 13:04:25"
+    },
+    {
+        "ID": "11507",
+        "Nome": "Cs 01",
+        "Bloco": null,
+        "Apto": "01",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "13/10/2024 13:02:44"
     },
     {
         "ID": "11506",
@@ -5916,6 +6268,17 @@
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
         "Data de registro": "12/10/2024 23:18:31"
+    },
+    {
+        "ID": "11483",
+        "Nome": "Cs 01",
+        "Bloco": null,
+        "Apto": "01",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "12/10/2024 23:06:15"
     },
     {
         "ID": "11482",
@@ -6182,6 +6545,17 @@
         "Data de registro": "12/10/2024 19:15:29"
     },
     {
+        "ID": "11454",
+        "Nome": "Cs 01",
+        "Bloco": null,
+        "Apto": "01",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "12/10/2024 19:15:29"
+    },
+    {
         "ID": "11453",
         "Nome": "Cs 01",
         "Bloco": null,
@@ -6428,11 +6802,33 @@
         "Nome": "Ap 108 - Benedito Kadimiel",
         "Bloco": null,
         "Apto": "108",
+        "Dispositivo": "Portao",
+        "Saída": "Saida01",
+        "Recurso": "Controle",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "12/10/2024 17:58:36"
+    },
+    {
+        "ID": "11431",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Veiculos",
+        "Saída": null,
+        "Recurso": "(RF)",
+        "Status do Recurso": null,
+        "Data de registro": "12/10/2024 17:58:36"
+    },
+    {
+        "ID": "11430",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
         "Dispositivo": "Portao Veiculos",
         "Saída": "Saida01",
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
-        "Data de registro": "12/10/2024 17:58:36"
+        "Data de registro": "12/10/2024 17:58:25"
     },
     {
         "ID": "11429",
@@ -6681,11 +7077,33 @@
         "Nome": "Ap 108 - Benedito Kadimiel",
         "Bloco": null,
         "Apto": "108",
+        "Dispositivo": "Portao",
+        "Saída": "Saida01",
+        "Recurso": "Controle",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "12/10/2024 14:08:28"
+    },
+    {
+        "ID": "11406",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Veiculos",
+        "Saída": null,
+        "Recurso": "(RF)",
+        "Status do Recurso": null,
+        "Data de registro": "12/10/2024 14:08:28"
+    },
+    {
+        "ID": "11405",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
         "Dispositivo": "Portao Veiculos",
         "Saída": "Saida01",
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
-        "Data de registro": "12/10/2024 14:08:28"
+        "Data de registro": "12/10/2024 14:08:25"
     },
     {
         "ID": "11404",
@@ -6939,6 +7357,17 @@
         "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
         "Data de registro": "12/10/2024 10:58:31"
+    },
+    {
+        "ID": "11380",
+        "Nome": "Ap 107",
+        "Bloco": null,
+        "Apto": "107",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "12/10/2024 10:57:39"
     },
     {
         "ID": "11379",
@@ -7200,9 +7629,31 @@
         "Apto": "108",
         "Dispositivo": "Ped Apt",
         "Saída": "Saida01 Saida02",
-        "Recurso": "Via apartament o",
+        "Recurso": "Via apartament",
         "Status do Recurso": "Liberado",
         "Data de registro": "12/10/2024 08:50:13"
+    },
+    {
+        "ID": "11356",
+        "Nome": null,
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Ped Apt",
+        "Saída": null,
+        "Recurso": "o",
+        "Status do Recurso": null,
+        "Data de registro": "12/10/2024 08:50:13"
+    },
+    {
+        "ID": "11354",
+        "Nome": null,
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Via apartament o",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "12/10/2024 08:49:51"
     },
     {
         "ID": "11352",
@@ -7443,7 +7894,18 @@
         "Dispositivo": "Portao Veiculos",
         "Saída": "Saida02",
         "Recurso": "Controle (RF)",
-        "Status do Recurso": "Liberado dispositivo",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "11/10/2024 20:26:05"
+    },
+    {
+        "ID": "11328",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": null,
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado pelo dispositivo",
         "Data de registro": "11/10/2024 20:26:05"
     },
     {
@@ -7698,6 +8160,17 @@
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
         "Data de registro": "11/10/2024 18:26:01"
+    },
+    {
+        "ID": "11302",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "11/10/2024 18:25:59"
     },
     {
         "ID": "11301",
@@ -7964,6 +8437,28 @@
         "Data de registro": "11/10/2024 15:36:52"
     },
     {
+        "ID": "11278",
+        "Nome": "Gustavo",
+        "Bloco": null,
+        "Apto": "1001",
+        "Dispositivo": "Ped Casas",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "11/10/2024 15:36:52"
+    },
+    {
+        "ID": "11277",
+        "Nome": "Gustavo",
+        "Bloco": null,
+        "Apto": "1001",
+        "Dispositivo": "Ped Casas",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "11/10/2024 15:36:50"
+    },
+    {
         "ID": "11274",
         "Nome": "Gustavo",
         "Bloco": null,
@@ -8204,6 +8699,17 @@
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
         "Data de registro": "11/10/2024 14:51:50"
+    },
+    {
+        "ID": "11250",
+        "Nome": "Cs 01",
+        "Bloco": null,
+        "Apto": "01",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "11/10/2024 14:51:49"
     },
     {
         "ID": "11249",
@@ -8470,6 +8976,28 @@
         "Data de registro": "11/10/2024 13:35:39"
     },
     {
+        "ID": "11226",
+        "Nome": "Ap 105 - Adriana Batistucci",
+        "Bloco": null,
+        "Apto": "105",
+        "Dispositivo": "Ped Casas",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "11/10/2024 13:35:39"
+    },
+    {
+        "ID": "11225",
+        "Nome": "Ap 107",
+        "Bloco": null,
+        "Apto": "107",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "11/10/2024 13:11:56"
+    },
+    {
         "ID": "11224",
         "Nome": "Ap 103 - Auris Nohely",
         "Bloco": null,
@@ -8723,6 +9251,17 @@
         "Data de registro": "11/10/2024 10:59:46"
     },
     {
+        "ID": "11201",
+        "Nome": "Gustavo",
+        "Bloco": null,
+        "Apto": "1001",
+        "Dispositivo": "Ped Casas",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "11/10/2024 10:36:14"
+    },
+    {
         "ID": "11200",
         "Nome": "Gustavo",
         "Bloco": null,
@@ -8974,6 +9513,17 @@
         "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
         "Data de registro": "11/10/2024 07:47:02"
+    },
+    {
+        "ID": "11177",
+        "Nome": "Ap 103 - Auris Nohely",
+        "Bloco": null,
+        "Apto": "103",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "11/10/2024 07:46:19"
     },
     {
         "ID": "11176",
@@ -9240,6 +9790,28 @@
         "Data de registro": "10/10/2024 19:14:57"
     },
     {
+        "ID": "11150",
+        "Nome": "Ap 104 - Bruno Eduardo",
+        "Bloco": null,
+        "Apto": "104",
+        "Dispositivo": "Ped Apt",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "10/10/2024 19:14:57"
+    },
+    {
+        "ID": "11149",
+        "Nome": "Ap 104 - Bruno Eduardo",
+        "Bloco": null,
+        "Apto": "104",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "10/10/2024 19:09:56"
+    },
+    {
         "ID": "11148",
         "Nome": "Ap 107",
         "Bloco": null,
@@ -9480,6 +10052,17 @@
         "Recurso": "Via apartament o",
         "Status do Recurso": "Liberado",
         "Data de registro": "10/10/2024 15:25:10"
+    },
+    {
+        "ID": "11106",
+        "Nome": "Engenharia",
+        "Bloco": null,
+        "Apto": "1001",
+        "Dispositivo": "Ped Casas",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "10/10/2024 15:23:49"
     },
     {
         "ID": "11105",
@@ -9735,6 +10318,17 @@
         "Data de registro": "10/10/2024 12:26:45"
     },
     {
+        "ID": "10976",
+        "Nome": "Ap 102 - Lucilene de Souza",
+        "Bloco": null,
+        "Apto": "102",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "10/10/2024 12:12:10"
+    },
+    {
         "ID": "10975",
         "Nome": "Ap 102 - Lucilene de Souza",
         "Bloco": null,
@@ -9986,6 +10580,17 @@
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
         "Data de registro": "10/10/2024 09:28:31"
+    },
+    {
+        "ID": "10949",
+        "Nome": "Ap 103 - Auris Nohely",
+        "Bloco": null,
+        "Apto": "103",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "10/10/2024 09:28:27"
     },
     {
         "ID": "10948",
@@ -10245,11 +10850,33 @@
         "Nome": "Ap 108 - Benedito Kadimiel",
         "Bloco": null,
         "Apto": "108",
-        "Dispositivo": "Ped Apt Veiculos",
+        "Dispositivo": "Ped Apt",
         "Saída": "Saida01 Saida02",
-        "Recurso": "Chaveiro (TAG) (RF)",
+        "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
         "Data de registro": "09/10/2024 21:04:43"
+    },
+    {
+        "ID": "10925",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Ped Apt",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "09/10/2024 21:04:43"
+    },
+    {
+        "ID": "10924",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "09/10/2024 20:22:40"
     },
     {
         "ID": "10923",
@@ -10503,6 +11130,17 @@
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
         "Data de registro": "09/10/2024 16:33:48"
+    },
+    {
+        "ID": "10900",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "09/10/2024 16:33:36"
     },
     {
         "ID": "10899",
@@ -10766,6 +11404,17 @@
         "Saída": "Saida01",
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
+        "Data de registro": "09/10/2024 08:00:13"
+    },
+    {
+        "ID": "10875",
+        "Nome": "Ap 106 - Elvis de Souza",
+        "Bloco": null,
+        "Apto": "106",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
         "Data de registro": "09/10/2024 08:00:13"
     },
     {
@@ -11033,6 +11682,17 @@
         "Data de registro": "08/10/2024 21:13:00"
     },
     {
+        "ID": "10851",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "08/10/2024 21:13:00"
+    },
+    {
         "ID": "10850",
         "Nome": "Ap 108 - Benedito Kadimiel",
         "Bloco": null,
@@ -11297,6 +11957,28 @@
         "Data de registro": "08/10/2024 17:32:12"
     },
     {
+        "ID": "10827",
+        "Nome": "Cs 02",
+        "Bloco": null,
+        "Apto": "02",
+        "Dispositivo": "Ped Casas",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "08/10/2024 17:32:12"
+    },
+    {
+        "ID": "10826",
+        "Nome": "Ap 105 - Adriana Batistucci",
+        "Bloco": null,
+        "Apto": "105",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "08/10/2024 17:23:41"
+    },
+    {
         "ID": "10825",
         "Nome": "Ap 108 - Benedito Kadimiel",
         "Bloco": null,
@@ -11537,6 +12219,17 @@
         "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
         "Data de registro": "08/10/2024 12:14:00"
+    },
+    {
+        "ID": "10791",
+        "Nome": "Mestre de Obras",
+        "Bloco": null,
+        "Apto": "1001",
+        "Dispositivo": "Ped Casas",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "08/10/2024 11:55:32"
     },
     {
         "ID": "10790",
@@ -11788,8 +12481,19 @@
         "Dispositivo": "Ped Casas",
         "Saída": "Saida01 Saida02",
         "Recurso": "Chaveiro (TAG)",
-        "Status do Recurso": "Liberado inválidos",
+        "Status do Recurso": "Liberado",
         "Data de registro": "08/10/2024 10:08:30"
+    },
+    {
+        "ID": "10765",
+        "Nome": null,
+        "Bloco": null,
+        "Apto": null,
+        "Dispositivo": "Ped Casas",
+        "Saída": null,
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Bloqueado - Dados inválidos",
+        "Data de registro": "08/10/2024 10:08:20"
     },
     {
         "ID": "10764",
@@ -12045,6 +12749,17 @@
         "Data de registro": "08/10/2024 07:38:54"
     },
     {
+        "ID": "10739",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "08/10/2024 07:28:06"
+    },
+    {
         "ID": "10738",
         "Nome": "Ap 108 - Benedito Kadimiel",
         "Bloco": null,
@@ -12296,6 +13011,17 @@
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
         "Data de registro": "07/10/2024 19:29:23"
+    },
+    {
+        "ID": "10713",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "07/10/2024 19:29:21"
     },
     {
         "ID": "10712",
@@ -12562,6 +13288,17 @@
         "Data de registro": "07/10/2024 16:06:20"
     },
     {
+        "ID": "10689",
+        "Nome": "Ap 103 - Auris Nohely",
+        "Bloco": null,
+        "Apto": "103",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "07/10/2024 16:06:20"
+    },
+    {
         "ID": "10688",
         "Nome": "Ap 103 - Auris Nohely",
         "Bloco": null,
@@ -12791,6 +13528,17 @@
         "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
         "Data de registro": "07/10/2024 11:25:39"
+    },
+    {
+        "ID": "10664",
+        "Nome": "Ap 106 - Elvis de Souza",
+        "Bloco": null,
+        "Apto": "106",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "07/10/2024 11:18:57"
     },
     {
         "ID": "10663",
@@ -13046,6 +13794,17 @@
         "Data de registro": "07/10/2024 08:16:53"
     },
     {
+        "ID": "10640",
+        "Nome": "Ap 103 - Auris Nohely",
+        "Bloco": null,
+        "Apto": "103",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "07/10/2024 08:02:52"
+    },
+    {
         "ID": "10639",
         "Nome": "Ap 103 - Auris Nohely",
         "Bloco": null,
@@ -13297,6 +14056,17 @@
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
         "Data de registro": "06/10/2024 21:04:52"
+    },
+    {
+        "ID": "10614",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "06/10/2024 21:04:34"
     },
     {
         "ID": "10613",
@@ -13563,6 +14333,17 @@
         "Data de registro": "06/10/2024 13:57:10"
     },
     {
+        "ID": "10590",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "06/10/2024 13:57:10"
+    },
+    {
         "ID": "10589",
         "Nome": "Ap 106 - Elvis de Souza",
         "Bloco": null,
@@ -13820,11 +14601,33 @@
         "Nome": "Ap 105 - Adriana Batistucci",
         "Bloco": null,
         "Apto": "105",
-        "Dispositivo": "Ped Apt Veiculos",
+        "Dispositivo": "Ped Apt",
         "Saída": "Saida01 Saida02",
-        "Recurso": "Chaveiro (TAG) (RF)",
+        "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
         "Data de registro": "05/10/2024 22:39:38"
+    },
+    {
+        "ID": "10566",
+        "Nome": "Ap 105 - Adriana Batistucci",
+        "Bloco": null,
+        "Apto": "105",
+        "Dispositivo": "Ped Apt",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "05/10/2024 22:39:38"
+    },
+    {
+        "ID": "10565",
+        "Nome": "Ap 107",
+        "Bloco": null,
+        "Apto": "107",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "05/10/2024 22:35:53"
     },
     {
         "ID": "10564",
@@ -14078,6 +14881,17 @@
         "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
         "Data de registro": "05/10/2024 19:11:05"
+    },
+    {
+        "ID": "10540",
+        "Nome": "Ap 107",
+        "Bloco": null,
+        "Apto": "107",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "05/10/2024 18:59:24"
     },
     {
         "ID": "10539",
@@ -14337,11 +15151,33 @@
         "Nome": "Ap 106 - Elvis de Souza",
         "Bloco": null,
         "Apto": "106",
-        "Dispositivo": "Ped Casas Veiculos",
+        "Dispositivo": "Ped Casas",
         "Saída": "Saida01 Saida02",
-        "Recurso": "Chaveiro (TAG) (RF)",
+        "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
         "Data de registro": "05/10/2024 13:52:53"
+    },
+    {
+        "ID": "10514",
+        "Nome": "Ap 106 - Elvis de Souza",
+        "Bloco": null,
+        "Apto": "106",
+        "Dispositivo": "Ped Casas",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "05/10/2024 13:52:53"
+    },
+    {
+        "ID": "10513",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": "Saida01",
+        "Recurso": "Controle (RF)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "05/10/2024 13:34:27"
     },
     {
         "ID": "10512",
@@ -14595,6 +15431,17 @@
         "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
         "Data de registro": "05/10/2024 11:29:22"
+    },
+    {
+        "ID": "10487",
+        "Nome": "Ap 106 - Elvis de Souza",
+        "Bloco": null,
+        "Apto": "106",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "05/10/2024 11:23:49"
     },
     {
         "ID": "10486",
@@ -14858,6 +15705,17 @@
         "Saída": "Saida01",
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
+        "Data de registro": "04/10/2024 19:00:23"
+    },
+    {
+        "ID": "10462",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Portao Veiculos",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
         "Data de registro": "04/10/2024 19:00:23"
     },
     {
@@ -15125,6 +15983,28 @@
         "Data de registro": "04/10/2024 16:37:07"
     },
     {
+        "ID": "10438",
+        "Nome": "Ap 107",
+        "Bloco": null,
+        "Apto": "107",
+        "Dispositivo": "Ped Casas",
+        "Saída": null,
+        "Recurso": null,
+        "Status do Recurso": null,
+        "Data de registro": "04/10/2024 16:37:07"
+    },
+    {
+        "ID": "10437",
+        "Nome": "Ap 107",
+        "Bloco": null,
+        "Apto": "107",
+        "Dispositivo": "Ped Casas",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "04/10/2024 16:36:19"
+    },
+    {
         "ID": "10436",
         "Nome": "Ap 107",
         "Bloco": null,
@@ -15372,10 +16252,32 @@
         "Bloco": "100",
         "Apto": "100",
         "Dispositivo": "Ped Casas",
+        "Saída": "Saida01",
+        "Recurso": "Chaveiro",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "04/10/2024 15:04:22"
+    },
+    {
+        "ID": "10411",
+        "Nome": "Mitte",
+        "Bloco": "100",
+        "Apto": "100",
+        "Dispositivo": "Ped Casas",
+        "Saída": "Saida02",
+        "Recurso": "(TAG)",
+        "Status do Recurso": null,
+        "Data de registro": "04/10/2024 15:04:22"
+    },
+    {
+        "ID": "10410",
+        "Nome": "Ap 107",
+        "Bloco": null,
+        "Apto": "107",
+        "Dispositivo": "Ped Apt",
         "Saída": "Saida01 Saida02",
         "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
-        "Data de registro": "04/10/2024 15:04:22"
+        "Data de registro": "04/10/2024 14:54:28"
     },
     {
         "ID": "10409",
@@ -15624,11 +16526,33 @@
         "Nome": "Ap 108 - Benedito Kadimiel",
         "Bloco": null,
         "Apto": "108",
+        "Dispositivo": "Portao",
+        "Saída": "Saida01",
+        "Recurso": "Controle",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "04/10/2024 13:28:56"
+    },
+    {
+        "ID": "10386",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
+        "Dispositivo": "Veiculos",
+        "Saída": null,
+        "Recurso": "(RF)",
+        "Status do Recurso": null,
+        "Data de registro": "04/10/2024 13:28:56"
+    },
+    {
+        "ID": "10385",
+        "Nome": "Ap 108 - Benedito Kadimiel",
+        "Bloco": null,
+        "Apto": "108",
         "Dispositivo": "Portao Veiculos",
         "Saída": "Saida01",
         "Recurso": "Controle (RF)",
         "Status do Recurso": "Liberado",
-        "Data de registro": "04/10/2024 13:28:56"
+        "Data de registro": "04/10/2024 13:28:45"
     },
     {
         "ID": "10384",
@@ -15882,6 +16806,17 @@
         "Recurso": "Chaveiro (TAG)",
         "Status do Recurso": "Liberado",
         "Data de registro": "04/10/2024 11:47:26"
+    },
+    {
+        "ID": "10357",
+        "Nome": "Ap 107",
+        "Bloco": null,
+        "Apto": "107",
+        "Dispositivo": "Ped Apt",
+        "Saída": "Saida01 Saida02",
+        "Recurso": "Chaveiro (TAG)",
+        "Status do Recurso": "Liberado",
+        "Data de registro": "04/10/2024 11:45:14"
     },
     {
         "ID": "10356",
