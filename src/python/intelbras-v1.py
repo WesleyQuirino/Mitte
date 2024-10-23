@@ -1,5 +1,6 @@
 import tabula
 import pandas as pd
+from datetime import datetime
 import json
 import sys
 import os  # Para trabalhar com o nome do arquivo
@@ -65,6 +66,21 @@ def process_pdf(pdf_path):
             else:
                 previous_item = json_data[i]
                 processed_data.append(previous_item)
+
+        csv_data = processed_data
+        
+        for i in range(len(processed_data)):
+            data_registro = processed_data[i]["Data de registro"]
+            
+            # Divide a data e a hora
+            data, hora = data_registro.split(' ')
+            
+            # Atualiza o objeto com as novas chaves "Data" e "Hora" como objetos datetime
+            processed_data[i]["Data"] = data
+            processed_data[i]["Hora"] = hora
+            
+            # Remove a chave original "Data de registro"
+            del processed_data[i]["Data de registro"]
 
         # Converte a lista final para JSON formatado
         json_string = json.dumps(processed_data, ensure_ascii=False, indent=4)
