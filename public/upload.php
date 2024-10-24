@@ -19,7 +19,7 @@
 
             if ($json_data) {
                 // Envia resposta de sucesso com os dados
-                echo json_encode(['status' => 'success', 'data' => $json_data]);
+                echo json_encode(['status' => 'success', 'data' => $json_data, 'file_name' => $_FILES['pdf_file']['name']]);
             } else {
                 echo json_encode(['status' => 'error', 'message' => 'Erro ao processar o arquivo JSON.']);
             }

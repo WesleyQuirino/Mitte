@@ -20,12 +20,11 @@
                     <label for="pdf_model">Selecione o modelo do PDF:</label>
                     <select name="pdf_model" id="pdf_model" class="form-control" required>
                         <option value="">Selecione</option>
-                        <option value="intelbras-v1">Intelbras v.1</option>
+                        <option value="intelbras-v1" selected>Intelbras v.1</option>
                     </select>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar PDF</button>
             </form>
-            
             <div id="upload-result" class="mt-3"></div> <!-- Onde serão exibidos os resultados -->
         </div>
         
