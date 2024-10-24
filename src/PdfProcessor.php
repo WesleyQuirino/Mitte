@@ -19,13 +19,13 @@ class PdfProcessor {
         // Escolhe o script Python com base no modelo
         switch ($this->model) {
             case 'intelbras-v1':
-                $pythonScript = 'C:\Users\Wesley\Desktop\Mitte\src\python\intelbras-v1.py';
+                $pythonScript =  __DIR__ . DIRECTORY_SEPARATOR .'.' . DIRECTORY_SEPARATOR .'python' . DIRECTORY_SEPARATOR . 'intelbras-v1.py';
                 // Executa o script Python correspondente
                 $command = escapeshellcmd("python $pythonScript " . escapeshellarg($this->filePath));
                 shell_exec($command . " 2>&1"); // Executa o script Python
 
                 // Verifica se o arquivo JSON foi gerado
-                $jsonFile = "C:\\Users\\Wesley\\Desktop\\Mitte\\public\\json\\$fileName.json";
+                $jsonFile = __DIR__ . DIRECTORY_SEPARATOR .'..' . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR . 'json' . DIRECTORY_SEPARATOR . $fileName . '.json';
                 if (!file_exists($jsonFile)) {
                     return ['status' => 'error', 'message' => 'Erro: arquivo JSON não foi gerado.'];
                 }

@@ -12,7 +12,7 @@ class FileUploader{
     }
 
     public function uploadFile($file){
-        $uploadedFile = "C:/Users/Wesley/Desktop/Mitte/public/uploads/" . basename($file['name']);
+        $uploadedFile = "../public/uploads/" . basename($file['name']);
         if (move_uploaded_file($file['tmp_name'], $uploadedFile)) {
             return $uploadedFile;
         }
